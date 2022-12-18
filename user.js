@@ -14,14 +14,6 @@ const userSchema = new mongoose.Schema({
     password: {
         type: String,
         require: true,
-    },
-    profileImg: {
-        type: String,
-        default: ''
-    },
-    posts: {
-        type: Array,
-        default: []
     }
 })
 
